@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+# Assumes you have node and uglifyjs installed on your system
+current_file = ENV["TM_FILEPATH"]
+output_file = current_file.sub(/\.js$/, ".min.js")
+system("uglifyjs \"#{current_file}\" -c -o \"#{output_file}\"")
+puts "Compiled JS to '#{output_file}'"</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@b</string>
+	<key>name</key>
+	<string>Compress To File</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>162EDD7A-292E-470F-97E6-70DB7F22AA0E</string>
+</dict>
+</plist>

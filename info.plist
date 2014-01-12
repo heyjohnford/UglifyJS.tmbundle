@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>wbua@wbuanzvnusbeq.pbz</string>
+	<key>contactName</key>
+	<string>johnamiahford</string>
+	<key>description</key>
+	<string>Support to minify JavaScript with UglifyJS.</string>
+	<key>name</key>
+	<string>UglifyJS</string>
+	<key>uuid</key>
+	<string>481A7EA6-A47D-4B01-8972-7AF0F55000D0</string>
+</dict>
+</plist>
